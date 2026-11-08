@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "Monei",
+    "slug": "finance-tracker",
+    "version": "1.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/monei_Icon2.png",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": false,
+    "scheme": "com.shameem.financetracker",
+    "splash": {
+      "image": "./assets/monei_Icon2.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#09090F"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.shameem.financetracker"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/monei_Icon2.png",
+        "backgroundColor": "#09090F"
+      },
+      "package": "com.shameem.financetracker",
+      "versionCode": 2,
+      "googleServicesFile": "./google-services.json"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./assets/favicon.png",
+      "name": "Monei",
+      "shortName": "Monei",
+      "description": "Your money, clearly.",
+      "backgroundColor": "#09090F",
+      "themeColor": "#09090F"
+    },
+    "plugins": [
+      "@react-native-google-signin/google-signin",
+      "expo-secure-store",
+      "expo-system-ui"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "a221c08e-4469-4ac3-89f4-5747d8337c92"
+      }
+    }
+  }
+}
